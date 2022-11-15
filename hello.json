@@ -1,5 +1,6 @@
 {
-  "version": "4.0",
-  "url": "https://raw.githubusercontent.com/quangduy0709/my-bucket/main/test.ps1",
-  "bin": "test.ps1"
+  "version": "1.0",
+  "url": "https://github.com/hudy9x/kompad-homepage/releases/download/v0.14.2/kompad_0.14.2_x64_en-US.msi",
+  "bin": "/PFiles/kompad/kompad.exe"
+  
 }
