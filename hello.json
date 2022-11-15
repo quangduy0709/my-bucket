@@ -2,5 +2,5 @@
   "version": "1.0",
   "url": "https://github.com/hudy9x/kompad-homepage/releases/download/v0.14.2/kompad_0.14.2_x64_en-US.msi",
   "bin": "/PFiles/kompad/kompad.exe",
-  "shortcuts": ["kompad.exe", "Bonzomatic GLFW"]
+  "shortcuts": ["kompad.exe", "kompad.exe"]
 }
