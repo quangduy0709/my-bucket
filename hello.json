@@ -1,10 +1,8 @@
 {
   "version": "1.0",
   "url": "https://github.com/hudy9x/kompad-homepage/releases/download/v0.14.2/kompad_0.14.2_x64_en-US.msi",
-  "bin": "/PFiles/kompad/kompad.exe", 
-  "post_install": ["$WshShell = New-Object -comObject WScript.Shell; $Shortcut = $WshShell.CreateShortcut('C:\\Users\\quang\\Desktop\\Kompad.lnk'); $Shortcut.TargetPath = 'C:\\Users\\quang\\scoop\\apps\\kompad\\3.0\\PFiles\\kompad\\kompad.exe'; $Shortcut.Save()"]
+  "bin": "/PFiles/kompad/kompad.exe",
+  "post_install": [
+    "$WshShell = New-Object -comObject WScript.Shell; $Shortcut = $WshShell.CreateShortcut('C:\\Users\\$env:UserName\\Desktop\\Kompad.lnk'); $Shortcut.TargetPath = 'C:\\Users\\$env:UserName\\scoop\\apps\\kompad\\3.0\\PFiles\\kompad\\kompad.exe'; $Shortcut.Save()"
+  ]
 }
-
-
-
-
