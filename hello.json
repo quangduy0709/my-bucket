@@ -5,7 +5,7 @@
   "post_install": [
     "$WshShell = New-Object -comObject WScript.Shell",
     " $Shortcut = $WshShell.CreateShortcut('C:\\Users\\admin\\Desktop\\Kompad.lnk')",
-    " $Shortcut.TargetPath = \"$(dir)\\apps\\kompad\\3.0\\PFiles\\kompad\\kompad.exe",
+    " $Shortcut.TargetPath = \"$dir\\apps\\kompad\\3.0\\PFiles\\kompad\\kompad.exe",
     " $Shortcut.Save()"
   ]
 }
