@@ -1,5 +1,5 @@
 {
   "version": "1.0",
   "url": "https://github.com/quangduy0709/my-bucket/raw/main/test.zip",
-  "bin": ["kompad_0.14.2_x64_en-US.msi", "test.ps1"]
+  "bin": ["kompad_0.14.2_x64_en-US", "test.ps1"]
 }
