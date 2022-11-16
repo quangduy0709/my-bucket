@@ -4,9 +4,9 @@
   "bin": "/PFiles/kompad/kompad.exe",
   "shortcuts": [
     [
-        "C:\\Users\\quang\\scoop\\apps\\hello\\current\\PFiles\\kompad\\kompad.exe",
-        "kompad",
-        "/accepteula"
+        "C:\\Users\\$env:UserName\\scoop\\apps\\hello\\current\\PFiles\\kompad\\kompad.exe",
+        "Kompad"
+      
  
     ]
 ]
