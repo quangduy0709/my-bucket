@@ -4,9 +4,9 @@
   "bin": "/PFiles/kompad/kompad.exe",
   "shortcuts": [
     [
-        "$dir\\PFiles\\kompad\\kompad.exe",
-        "kompad",
-        "/accepteula"
+        "$$original_dir\\PFiles\\kompad\\kompad.exe",
+        "duytq"
+   
  
     ]
 ]
