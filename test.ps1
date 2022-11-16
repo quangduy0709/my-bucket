@@ -1,5 +1,1 @@
-$WshShell = New-Object -comObject WScript.Shell
-$Shortcut = $WshShell.CreateShortcut("$Home\Desktop\Kompad.lnk")
-$Shortcut.TargetPath = "C:\Users\$env:UserName\scoop\apps\kompad\3.0\PFiles\kompad\kompad.exe"
-$Shortcut.Save()
-
+Move-Item -Path C:\Users\quang\scoop\apps\hello\current\PFiles\kompad\kompad.exe -Destination C:\Users\quang\scoop\apps\hello\current
