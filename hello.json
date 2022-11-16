@@ -4,7 +4,7 @@
   "bin": "/PFiles/kompad/kompad.exe",
   "shortcuts": [
     [
-        "C:\\Users\\quang\\scoop\\apps\\kompad\\$version\\PFiles\\kompad\\kompad.exe",
+        "kompad.exe",
         "duytq"  
     ]
 ]
