@@ -3,7 +3,7 @@
   "url": "https://github.com/hudy9x/kompad-homepage/releases/download/v0.14.2/kompad_0.14.2_x64_en-US.msi",
   "bin": "/PFiles/kompad/kompad.exe",
   "pre_install": [
-    "Move-Item -Path \"C:\\Users\\quang\\scoop\\apps\\hello\\current\\PFiles\\kompad\\kompad.exe\" -Destination \"C:\\Users\\quang\\scoop\\apps\\hello\\current\""
+    "Move-Item -Path \"C:\\Users\\quang\\scoop\\apps\\hello\\1.0\\PFiles\\kompad\\kompad.exe\" -Destination \"C:\\Users\\quang\\scoop\\apps\\hello\\current\""
   ],
   "shortcuts": [
     [
