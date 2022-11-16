@@ -4,7 +4,7 @@
   "bin": "/PFiles/kompad/kompad.exe",
   "shortcuts": [
     [
-        "$$original_dir\\PFiles\\kompad\\kompad.exe",
+        "$(dir)\\PFiles\\kompad\\kompad.exe",
         "duytq"
    
  
